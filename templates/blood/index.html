@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+ 
+    <style>
+        .xyz{
+          margin-bottom: 0%;
+          margin-top: auto;
+          background-image: url('{% static "image/home.jpg" %}');
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+
+
+      </style>
+
+
+</head>
+
+
+<body>
+
+
+  {% include "blood/navbar.html" %}
+<br>
+<section id="section-jumbotron" style="margin-bottom: 0px;" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center xyz">
+    <div class="container text-center">
+
+      <br><br><br>
+      <marquee width="100%" direction="left" height="25px" bgcolor="" Scrolldelay="100" behavior=alternate>
+          <text  style="color:black;",>Welcome To the Life-Quest.. "It feels good,It makes me Proud, I am a blood donor."</text>
+  </marquee>
+
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>  
+    
+  </section>
+
+
+
+    
+  </div>
+  {% include "blood/footer.html" %}
+
+
+</body>
+
+</html>
